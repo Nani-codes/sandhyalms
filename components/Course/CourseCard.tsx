@@ -38,7 +38,7 @@ export default function CourseCard() {
       </Card.Section>
       <Group mt="xs">
         <Link  href="/Learn/DigitalMarketing" style={{ flex: 1 , textDecoration:"none", color:"white"}}>
-        <Button href="/Learn/DigitalMarketing"  radius="md"  style={{ flex: 1 , textDecoration:"none", }}>
+        <Button radius="md"  style={{ flex: 1 , textDecoration:"none", }}>
           Show Course
         </Button>
         </Link>
