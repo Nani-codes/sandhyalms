@@ -15,7 +15,7 @@ export default function HeroText() {
         <Title className={classes.title}>
           {' '}
           <Text component="span" className={classes.highlight} inherit>
-            Digital Marketing
+            Welcome To <span style={{color:"green"}}>Etecknowledgy</span>
           </Text>{' '}
         </Title>
 
@@ -28,7 +28,7 @@ export default function HeroText() {
         <div className={classes.controls}>
           
           <Button className={classes.control} size="lg">
-            <a style={{textDecoration:"none", color:"white"}}href="/course"> Preview </a>
+            <a style={{textDecoration:"none", color:"white"}}href="/Learn"> Preview </a>
           </Button>
         </div>
       </div>

@@ -12,7 +12,7 @@ import {
 } from "@clerk/nextjs";
 
 export const metadata = {
-  title: "My Mantine app",
+  title: "Etecknowledgy",
   description: "I have followed setup instructions carefully",
 };
 
