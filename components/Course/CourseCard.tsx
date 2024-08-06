@@ -37,11 +37,11 @@ export default function CourseCard() {
         </Text>
       </Card.Section>
       <Group mt="xs">
-        <Button radius="md"  style={{ flex: 1 , textDecoration:"none", }}>
-        <Link href="/Learn/DigitalMarketing" style={{ flex: 1 , textDecoration:"none", color:"white"}}>
+        <Link  href="/Learn/DigitalMarketing" style={{ flex: 1 , textDecoration:"none", color:"white"}}>
+        <Button href="/Learn/DigitalMarketing"  radius="md"  style={{ flex: 1 , textDecoration:"none", }}>
           Show Course
-        </Link>
         </Button>
+        </Link>
         <ActionIcon variant="default" radius="md" size={36}>
           <IconHeart className={classes.like} stroke={1.5} />
         </ActionIcon>
