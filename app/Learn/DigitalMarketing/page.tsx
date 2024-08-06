@@ -1,11 +1,11 @@
 import React from 'react'
-import Affiliate from './Affiliate/Affiliate'
+import Intro from './intro/intro'
 import SWOT from './SWOT/Swot'
 import Website from './Website/Website'
 function page() {
   return (
     <div style={{display:"flex", margin:"auto", flexWrap:"wrap", justifyContent:"center",alignItems:"center"}}>
-        <Affiliate></Affiliate>
+        <Intro></Intro>
         <SWOT></SWOT>
         <Website></Website>
     </div>

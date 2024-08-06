@@ -3,9 +3,9 @@ import ImageActionBanner from "../../../../components/module/ImageActionBanner";
 function page() {
   return (
     <ImageActionBanner
-      title="Affiliate Marketing"
+      title="Introduction to Digital Marketing"
       description="."
-      onButtonClick="/Learn/DigitalMarketing/Affiliate"
+      onButtonClick="/Learn/DigitalMarketing/intro"
       buttonText="Module"
     ></ImageActionBanner>
   );
