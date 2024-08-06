@@ -3,7 +3,7 @@ import { IconHeart } from '@tabler/icons-react';
 import Link from "next/link"
 
 import { Card, Image, Text, Group, Badge, Button, ActionIcon } from '@mantine/core';
-import classes from './Coursecard.module.css';
+import classes from './CourseCard.module.css';
 
 const mockdata = {
   image:
