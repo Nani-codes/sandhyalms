@@ -4,7 +4,7 @@ function page() {
   return (
     <ImageActionBanner
       title="Affiliate Marketing"
-      description="Affiliate marketing is a type of advertising where a company pays third-party publishers, called affiliates, to promote their products or services online and generate traffic or leads"
+      description="."
       onButtonClick="/Learn/DigitalMarketing/Affiliate"
       buttonText="Module"
     ></ImageActionBanner>
