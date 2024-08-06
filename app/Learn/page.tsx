@@ -4,7 +4,8 @@ import CourseCard from '../../components/Course/CourseCard'
 const ExternalPage = () => {
   return (
     <div style={{    margin: "auto",
-      width: "50%",
+      width: "85%",
+      height:"fit-content",
       display: "flex",
       flexWrap: "wrap",
       flexDirection: "row",

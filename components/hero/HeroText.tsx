@@ -12,10 +12,10 @@ export default function HeroText() {
       <Dots className={classes.dots} style={{ right: 0, top: 60 }} />
 
       <div  className={classes.inner}>
-        <Title  className={"Etecknowledgy"}>
+        <Title  className={classes.title}>
           {' '}
-          <Text style={{display:"flex",marginLeft:"30rem",flexDirection:"row"}} component="span" className={classes.highlight} inherit>
-            Welcome To <span style={{color:"green"}}>.   Etecknowledgy</span>
+          <Text component="span" className={classes.highlight} inherit>
+            Welcome To <span style={{color:"green"}}>eTecknowledgy</span>
           </Text>{' '}
         </Title>
 

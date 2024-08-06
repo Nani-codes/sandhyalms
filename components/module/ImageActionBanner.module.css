@@ -1,6 +1,9 @@
 .card {
     height: rem(240px);
-    width: 50%;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
     background-position: center;
     background-image: url(https://assets.entrepreneur.com/content/3x2/2000/20191112054904-FotoJet32.jpeg?format=pjeg&auto=webp&crop=16:9&width=675&height=380);

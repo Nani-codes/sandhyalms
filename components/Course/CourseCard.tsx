@@ -7,7 +7,7 @@ import classes from './CourseCard.module.css';
 
 const mockdata = {
   image:
-    'https://blog.ipleaders.in/wp-content/uploads/2020/11/digitalmarketing-820x420.png',
+    'https://designsvalley.com/wp-content/uploads/2023/10/what-is-digital-marketing.png',
   title: 'Digital Marketing',
   country: 'India',
   description:
