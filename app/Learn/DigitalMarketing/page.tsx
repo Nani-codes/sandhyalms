@@ -1,5 +1,5 @@
 import React from 'react'
-import Intro from './intro/intro'
+import Intro from './intro/Intro'
 import SWOT from './SWOT/Swot'
 import Website from './Website/Website'
 function page() {
