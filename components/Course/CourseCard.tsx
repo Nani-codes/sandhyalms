@@ -15,7 +15,7 @@ const mockdata = {
 };
 
 export default function CourseCard() {
-  const { image, title, description, country, badges } = mockdata;
+  const { image, title, description, country} = mockdata;
 
   return (
     <Card withBorder radius="md" p="md" className={classes.card}>
@@ -37,8 +37,8 @@ export default function CourseCard() {
         </Text>
       </Card.Section>
       <Group mt="xs">
-        <Button  radius="md" style={{ flex: 1 , textDecoration:"none"}}>
-        <Link href="/Learn/DigitalMarketing" radius="md" style={{ flex: 1 , textDecoration:"none", color:"white"}}>
+        <Button radius="md"  style={{ flex: 1 , textDecoration:"none", }}>
+        <Link href="/Learn/DigitalMarketing" style={{ flex: 1 , textDecoration:"none", color:"white"}}>
           Show Course
         </Link>
         </Button>

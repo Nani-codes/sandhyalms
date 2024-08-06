@@ -4,7 +4,7 @@ import SWOT from './SWOT/Swot'
 import Website from './Website/Website'
 function page() {
   return (
-    <div style={{display:"flex", margin:"auto",justify:"space-between"}}>
+    <div style={{display:"flex", margin:"auto"}}>
         <Affiliate></Affiliate>
         <SWOT></SWOT>
         <Website></Website>

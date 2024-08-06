@@ -2,14 +2,21 @@ import { Card, Overlay, Button, Text } from "@mantine/core";
 import classes from "./ImageActionBanner.module.css";
 import Link from "next/link";
 
+interface ImageActionBannerProps {
+  title: string;
+  description: string;
+  buttonText: string;
+  onButtonClick: string;
+}
+
 export default function ImageActionBanner({
   title,
   description,
   buttonText,
   onButtonClick,
-}) {
+}: ImageActionBannerProps) {
   return (
-    <Card radius="md" style={{margin:"3rem"}} className={classes.card}>
+    <Card radius="md" style={{ margin: "3rem" }} className={classes.card}>
       <Overlay className={classes.overlay} opacity={0.55} zIndex={0} />
 
       <div style={{ width: "50%" }} className={classes.content}>
@@ -20,13 +27,9 @@ export default function ImageActionBanner({
         <Text size="sm" className={classes.description}>
           {description}
         </Text>
-        <Button className={classes.action}
-            variant="white"
-            color="dark"
-            size="xs">
+        <Button className={classes.action} variant="white" color="dark" size="xs">
           <Link
-            variant
-            style={{textDecoration:"none",color:"black"}}
+            style={{ textDecoration: "none", color: "black" }}
             href={onButtonClick}
           >
             {buttonText}
